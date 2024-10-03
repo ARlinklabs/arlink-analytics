@@ -21,14 +21,14 @@ To use arlink-analytics in your React project, follow these steps:
 1. Import the `AnalyticsWrapper` component in your main App file:
 
 ```javascript
-import AnalyticsWrapper from 'arlink-analytics';
+import  AnalyticsWrapper  from 'arlink-analytics/src/AnalyticsWrapper';
 ```
 
 2. Wrap your routes with the `AnalyticsWrapper` component and pass the `processId`:
 
 ```jsx
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import AnalyticsWrapper from 'arlink-analytics';
+import  AnalyticsWrapper  from 'arlink-analytics/src/AnalyticsWrapper';
 
 function App() {
   return (
