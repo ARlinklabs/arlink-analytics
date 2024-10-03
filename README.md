@@ -52,7 +52,8 @@ Here's a complete example of how to integrate arlink-analytics into your React a
 ```jsx
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import AnalyticsWrapper from 'arlink-analytics';
+import  AnalyticsWrapper  from 'arlink-analytics/src/AnalyticsWrapper';
+
 import { AnalyticsDashboardComponent } from './components/analytics-dashboard';
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
